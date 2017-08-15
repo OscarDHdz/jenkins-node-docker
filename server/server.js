@@ -31,3 +31,6 @@ app.get('/', (req, res) => {
 
 app.listen(PORT);
 console.log(`Listening at: http://localhost:[36m${PORT}[0m`);
+
+
+module.exports = {app};

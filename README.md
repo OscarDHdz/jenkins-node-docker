@@ -1,5 +1,5 @@
-# Node Webserver
-Basic express API example used for Jenkins-Docker Example
+# Jenkins-docker node CI/CD example
+Basic express API example used for Jenkins-Docker example with Job, DSL Job and Pipeline
 
 ## Getting Started
 Install dependencies  
