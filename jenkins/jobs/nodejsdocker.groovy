@@ -1,4 +1,4 @@
-job('3-Created by Job - NodeJjs-Build-Test') {
+job('4-Created by Job - NodeJjs-Build-Test-Docker') {
     scm {
         git('https://github.com/OscarDHdz/jenkins-node-docker.git', 'master') {
 
