@@ -11,5 +11,6 @@ job('3-Created by Job - NodeJjs-Build-Test') {
     steps {
         shell("npm install")
         shell("npm test")
+        shell("docker build -t dockerapi .")
     }
 }
