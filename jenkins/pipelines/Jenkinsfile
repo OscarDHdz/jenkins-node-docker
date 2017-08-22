@@ -12,6 +12,10 @@ node {
      }
    }
    stage('docker build') {
+     echo 'Commit_id: $commit_id'
+     echo $commit_id
+     echo ${commit_id}
+     echo commit_id
      sh 'docker build -t dockerapi:${commit_id} .'
    }
 }
